@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T15:52:49.619406" rpa="false" schemaversion="5">
+<suite id="s1" name="Projet" source="C:\Users\jerou\PycharmProjects\Projet_Groupe_Bouffi\projet\projet.robot">
+<test id="s1-t1" name="Create an Account" line="9">
+<kw name="navigate">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-21T15:52:49.809141" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<arg>https://magento.softwaretestingboard.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-21T15:52:49.809141" elapsed="2.844205"/>
+</kw>
+<status status="PASS" start="2024-03-21T15:52:49.808141" elapsed="2.845205"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-21T15:52:52.654403" level="INFO">Clicking button '/html/body/div[2]/header/div[1]/div/ul/li[3]/a'.</msg>
+<msg time="2024-03-21T15:52:52.857800" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-03-21T15:52:52.857800" level="FAIL">Button with locator '/html/body/div[2]/header/div[1]/div/ul/li[3]/a' not found.</msg>
+<arg>/html/body/div[2]/header/div[1]/div/ul/li[3]/a</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2024-03-21T15:52:52.654403" elapsed="0.205410">Button with locator '/html/body/div[2]/header/div[1]/div/ul/li[3]/a' not found.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-03-21T15:52:52.860836" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-03-21T15:52:49.808141" elapsed="3.052695">Button with locator '/html/body/div[2]/header/div[1]/div/ul/li[3]/a' not found.</status>
+</test>
+<status status="FAIL" start="2024-03-21T15:52:49.620926" elapsed="3.240906"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Projet">Projet</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

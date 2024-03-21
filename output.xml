@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T17:23:02.250606" rpa="false" schemaversion="5">
+<suite id="s1" name="Projet" source="C:\Users\jerou\PycharmProjects\Projet_Groupe_Bouffi\projet\projet.robot">
+<test id="s1-t1" name="Sign In" line="28">
+<kw name="navigate">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:23:02.530924" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<arg>https://magento.softwaretestingboard.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-21T17:23:02.530924" elapsed="2.844772"/>
+</kw>
+<status status="PASS" start="2024-03-21T17:23:02.529935" elapsed="2.845761"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:23:05.376771" level="INFO">Clicking element '//html/body/div[2]/header/div[1]/div/ul/li[2]/a'.</msg>
+<arg>//html/body/div[2]/header/div[1]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:23:05.376771" elapsed="1.030888"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:23:06.409113" level="INFO">Typing text 'Assoma.Quesson@gmail.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>Assoma.Quesson@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:23:06.409113" elapsed="0.358900"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:23:06.769300" level="INFO">Typing text 'Test5.Test5' into text field 'id:pass'.</msg>
+<arg>id:pass</arg>
+<arg>Test5.Test5</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:23:06.769300" elapsed="0.117068"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-21T17:23:06.887616" level="INFO">Clicking button 'id:send2'.</msg>
+<arg>id:send2</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T17:23:06.886368" elapsed="1.484607"/>
+</kw>
+<tag>signin</tag>
+<status status="PASS" start="2024-03-21T17:23:02.528935" elapsed="5.842040"/>
+</test>
+<status status="PASS" start="2024-03-21T17:23:02.253595" elapsed="6.119608"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">signin</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Projet">Projet</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
