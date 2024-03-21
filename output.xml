@@ -1,57 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T17:23:02.250606" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T23:35:29.179588" rpa="false" schemaversion="5">
 <suite id="s1" name="Projet" source="C:\Users\jerou\PycharmProjects\Projet_Groupe_Bouffi\projet\projet.robot">
 <test id="s1-t1" name="Sign In" line="28">
 <kw name="navigate">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-03-21T17:23:02.530924" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<msg time="2024-03-21T23:35:29.407143" level="INFO">Opening browser 'chrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
 <arg>https://magento.softwaretestingboard.com/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-03-21T17:23:02.530924" elapsed="2.844772"/>
+<status status="PASS" start="2024-03-21T23:35:29.407143" elapsed="2.762501"/>
 </kw>
-<status status="PASS" start="2024-03-21T17:23:02.529935" elapsed="2.845761"/>
+<status status="PASS" start="2024-03-21T23:35:29.405632" elapsed="2.764012"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-03-21T17:23:05.376771" level="INFO">Clicking element '//html/body/div[2]/header/div[1]/div/ul/li[2]/a'.</msg>
+<msg time="2024-03-21T23:35:32.170732" level="INFO">Clicking element '//html/body/div[2]/header/div[1]/div/ul/li[2]/a'.</msg>
 <arg>//html/body/div[2]/header/div[1]/div/ul/li[2]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T17:23:05.376771" elapsed="1.030888"/>
+<status status="PASS" start="2024-03-21T23:35:32.170732" elapsed="1.086814"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-21T17:23:06.409113" level="INFO">Typing text 'Assoma.Quesson@gmail.com' into text field 'id:email'.</msg>
+<msg time="2024-03-21T23:35:33.259222" level="INFO">Typing text 'Assoma.Quesson@gmail.com' into text field 'id:email'.</msg>
 <arg>id:email</arg>
 <arg>Assoma.Quesson@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T17:23:06.409113" elapsed="0.358900"/>
+<status status="PASS" start="2024-03-21T23:35:33.258060" elapsed="0.257774"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-21T17:23:06.769300" level="INFO">Typing text 'Test5.Test5' into text field 'id:pass'.</msg>
+<msg time="2024-03-21T23:35:33.516945" level="INFO">Typing text 'Test5.Test5' into text field 'id:pass'.</msg>
 <arg>id:pass</arg>
 <arg>Test5.Test5</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T17:23:06.769300" elapsed="0.117068"/>
+<status status="PASS" start="2024-03-21T23:35:33.515834" elapsed="0.092530"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-03-21T17:23:06.887616" level="INFO">Clicking button 'id:send2'.</msg>
+<msg time="2024-03-21T23:35:33.609365" level="INFO">Clicking button 'id:send2'.</msg>
 <arg>id:send2</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T17:23:06.886368" elapsed="1.484607"/>
+<status status="PASS" start="2024-03-21T23:35:33.609365" elapsed="1.386796"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T23:35:37.997464" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T23:35:34.996161" elapsed="3.001303"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:37.998376" level="INFO">Clicking element '//*[@id="ui-id-2"]/li[6]'.</msg>
+<arg>//*[@id="ui-id-2"]/li[6]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:37.997967" elapsed="0.676787"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:38.676261" level="INFO">Clicking element '//*[@id="maincontent"]/div[4]/div[2]/div/div/ul[3]/li[1]/a'.</msg>
+<arg>//*[@id="maincontent"]/div[4]/div[2]/div/div/ul[3]/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:38.676261" elapsed="0.876807"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:39.553068" level="INFO">Clicking element '//*[@id="maincontent"]/div[3]/div[1]/div[4]/ol/li[7]/div/a/span/span/img'.</msg>
+<arg>//*[@id="maincontent"]/div[3]/div[1]/div[4]/ol/li[7]/div/a/span/span/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:39.553068" elapsed="0.757379"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:40.311685" level="INFO">Clicking button 'id:product-addtocart-button'.</msg>
+<arg>id:product-addtocart-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:40.310447" elapsed="0.355559"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T23:35:42.667417" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T23:35:40.667006" elapsed="2.000411"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:42.683073" level="INFO">Current page contains text 'You added Voyage Yoga Bag to your shopping cart.'.</msg>
+<arg>You added Voyage Yoga Bag to your shopping cart.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-03-21T23:35:42.667935" elapsed="0.015138"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T23:35:44.684141" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T23:35:42.683073" elapsed="2.001068"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:44.684141" level="INFO">Clicking element '//html/body/div[2]/header/div[2]/div[1]/a'.</msg>
+<arg>//html/body/div[2]/header/div[2]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:44.684141" elapsed="0.049447"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T23:35:46.733978" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T23:35:44.733588" elapsed="2.000390"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:46.735037" level="INFO">Clicking button '//*[@id="top-cart-btn-checkout"]'.</msg>
+<arg>//*[@id="top-cart-btn-checkout"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-21T23:35:46.735037" elapsed="1.567893"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-21T23:35:51.303436" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-21T23:35:48.302930" elapsed="3.000506"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-21T23:35:51.303436" level="INFO">Typing text 'Assoma' into text field 'name:firstname'.</msg>
+<msg time="2024-03-21T23:35:51.430293" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-33.png"&gt;&lt;img src="selenium-screenshot-33.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-03-21T23:35:51.430293" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69738AD02+56930]
+	(No symbol) [0x00007FF6972FF602]
+	(No symbol) [0x00007FF6971B419D]
+	(No symbol) [0x00007FF6971F109C]
+	(No symbol) [0x00007FF69721BC9A]
+	(No symbol) [0x00007FF6971EF09A]
+	(No symbol) [0x00007FF69721BEB0]
+	(No symbol) [0x00007FF6972381E2]
+	(No symbol) [0x00007FF69721BA43]
+	(No symbol) [0x00007FF6971ED438]
+	(No symbol) [0x00007FF6971EE4D1]
+	GetHandleVerifier [0x00007FF697706F8D+3711213]
+	GetHandleVerifier [0x00007FF6977604CD+4077101]
+	GetHandleVerifier [0x00007FF69775865F+4044735]
+	GetHandleVerifier [0x00007FF697429736+706710]
+	(No symbol) [0x00007FF69730B8DF]
+	(No symbol) [0x00007FF697306AC4]
+	(No symbol) [0x00007FF697306C1C]
+	(No symbol) [0x00007FF6972F68D4]
+	BaseThreadInitThunk [0x00007FFD7BF5257D+29]
+	RtlUserThreadStart [0x00007FFD7DA6AA58+40]
+</msg>
+<arg>name:firstname</arg>
+<arg>Assoma</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2024-03-21T23:35:51.303436" elapsed="0.138834">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69738AD02+56930]
+	(No symbol) [0x00007FF6972FF602]
+	(No symbol) [0x00007FF6971B419D]
+	(No symbol) [0x00007FF6971F109C]
+	(No symbol) [0x00007FF69721BC9A]
+	(No symbol) [0x00007FF6971EF09A]
+	(No symbol) [0x00007FF69721BEB0]
+	(No symbol) [0x00007FF6972381E2]
+	(No symbol) [0x00007FF69721BA43]
+	(No symbol) [0x00007FF6971ED438]
+	(No symbol) [0x00007FF6971EE4D1]
+	GetHandleVerifier [0x00007FF697706F8D+3711213]
+	GetHandleVerifier [0x00007FF6977604CD+4077101]
+	GetHandleVerifier [0x00007FF69775865F+4044735]
+	GetHandleVerifier [0x00007FF697429736+706710]
+	(No symbol) [0x00007FF69730B8DF]
+	(No symbol) [0x00007FF697306AC4]
+	(No symbol) [0x00007FF697306C1C]
+	(No symbol) [0x00007FF6972F68D4]
+	BaseThreadInitThunk [0x00007FFD7BF5257D+29]
+	RtlUserThreadStart [0x00007FFD7DA6AA58+40]
+</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:lastname</arg>
+<arg>Quesson</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.443285" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:street[0]</arg>
+<arg>8 avenue champ elysee</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.443285" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:city</arg>
+<arg>paris</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.443285" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<arg>name:region_id</arg>
+<arg>California</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444286" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:postcode</arg>
+<arg>75008</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444286" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<arg>name:country_id</arg>
+<arg>France</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444792" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:telephone</arg>
+<arg>01 23 45 67 89</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444792" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>data:role:opc-continue</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444792" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.444792" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>data:bind:click: placeOrder,attr: {title: $t('Place Order')}, css: {disabled: !isPlaceOrderActionAllowed()},enable: (getCode() == isChecked())</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.445798" elapsed="0.000000"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<arg>Thank you for your purchase!</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.445798" elapsed="0.000000"/>
+</kw>
+<kw name="Delete All Cookies" owner="SeleniumLibrary">
+<doc>Deletes all cookies.</doc>
+<status status="NOT RUN" start="2024-03-21T23:35:51.445798" elapsed="0.000000"/>
+</kw>
+<kw name="sleep 2">
+<status status="NOT RUN" start="2024-03-21T23:35:51.446815" elapsed="0.000000"/>
 </kw>
 <tag>signin</tag>
-<status status="PASS" start="2024-03-21T17:23:02.528935" elapsed="5.842040"/>
+<status status="FAIL" start="2024-03-21T23:35:29.405632" elapsed="22.041183">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69738AD02+56930]
+	(No symbol) [0x00007FF6972FF602]
+	(No symbol) [0x00007FF6971B419D]
+	(No symbol) [0x00007FF6971F109C]
+	(No symbol) [0x00007FF69721BC9A]
+	(No symbol) [0x00007FF6971EF09A]
+	(No symbol) [0x00007FF69721BEB0]
+	(No symbol) [0x00007FF6972381E2]
+	(No symbol) [0x00007FF69721BA43]
+	(No symbol) [0x00007FF6971ED438]
+	(No symbol) [0x00007FF6971EE4D1]
+	GetHandleVerifier [0x00007FF697706F8D+3711213]
+	GetHandleVerifier [0x00007FF6977604CD+4077101]
+	GetHandleVerifier [0x00007FF69775865F+4044735]
+	GetHandleVerifier [0x00007FF697429736+706710]
+	(No symbol) [0x00007FF69730B8DF]
+	(No symbol) [0x00007FF697306AC4]
+	(No symbol) [0x00007FF697306C1C]
+	(No symbol) [0x00007FF6972F68D4]
+	BaseThreadInitThunk [0x00007FFD7BF5257D+29]
+	RtlUserThreadStart [0x00007FFD7DA6AA58+40]
+</status>
 </test>
-<status status="PASS" start="2024-03-21T17:23:02.253595" elapsed="6.119608"/>
+<status status="FAIL" start="2024-03-21T23:35:29.181651" elapsed="22.267291"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">signin</stat>
+<stat pass="0" fail="1" skip="0">signin</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Projet">Projet</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Projet">Projet</stat>
 </suite>
 </statistics>
 <errors>
